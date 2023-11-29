@@ -1,0 +1,69 @@
+.parent img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  align-items: center;
+  background-color: brown;
+  background-position: bottom;
+}
+.bottom {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bl {
+  width: 400px;
+  height: 650px;
+  margin: 20px 15px 80px 40px;
+  text-align: center;
+  background-color: lavender;
+}
+.blog1 {
+  /* background-color: beige; */
+}
+.blog2 {
+  /* background-color: beige; */
+}
+.blog3 {
+  /* background-color: brown; */
+}
+.blog4 {
+  /* background-color: burlywood; */
+}
+.blog5 {
+  /* background-color: yellow; */
+}
+.blog6 {
+  /* background-color: chocolate; */
+}
+.blog7 {
+  /* background-color: chartreuse; */
+}
+.blog8 {
+  /* background-color: antiquewhite; */
+}
+.blog9 {
+  /* background-color: aqua; */
+}
+.bl img {
+  width: 100%;
+  height: 40%;
+}
+.bl h2 {
+  margin: 17px 40px;
+}
+.btn {
+  margin-top: 40px;
+  background-color: beige;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 10px 17px 10px 12px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: azure;
+  background-color: purple;
+}

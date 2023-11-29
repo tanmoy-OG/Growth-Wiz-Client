@@ -5,7 +5,7 @@ const Navbar = ({ fixed }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 bg-red-50 mb-3 w-screen">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 bg-red-50 w-full">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
