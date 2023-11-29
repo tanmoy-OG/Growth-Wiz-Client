@@ -16,6 +16,7 @@ import Parent from "./pages/Parent";
 import Child from "./pages/Child";
 import Videos from "./pages/Videos";
 import Navbar from "./components/Navbar";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -33,6 +34,7 @@ function App() {
           <Route path="/parent" Component={Parent} />
           <Route path="/child" Component={Child} />
           <Route path="/videos" Component={Videos} />
+          <Route path="/contact-us" Component={ContactUs} />
         </Routes>
       </QueryClientProvider>
     </>
