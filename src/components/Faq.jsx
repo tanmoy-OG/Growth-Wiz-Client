@@ -49,14 +49,16 @@ const Faq = () => {
   const { token } = theme.useToken();
   const panelStyle = {
     marginBottom: 24,
-    background: "lightpink",
+    background: "#dbeafe",
     borderRadius: token.borderRadiusLG,
     border: "none",
   };
   return (
     <>
       <div className=" px-80 flex flex-col gap-y-10">
-        <h1 className="text-6xl font-semibold text-pink-600 text-center">FAQ</h1>
+        <h1 className="text-6xl font-semibold text-orange-400 text-center">
+          FAQ
+        </h1>
         <Collapse
           bordered={false}
           defaultActiveKey={[""]}
